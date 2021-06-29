@@ -1,8 +1,8 @@
 <?php
 	ini_set('display_errors',1);
 	error_reporting(-1);
-	define('DB_HOST', '$db_host');
-    define('DB_USER', '$db_user');
-    define('DB_PASSWORD', '$db_password');
-    define('DB_DATABASE', '$db_name');
+	define('DB_HOST', '$_ENV[dbhost]');
+    define('DB_USER', 'ort');
+    define('DB_PASSWORD', 'passwordort');
+    define('DB_DATABASE', 'dbobligatorio');
 ?>
